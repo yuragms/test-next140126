@@ -1,3 +1,4 @@
+import MySQLTable from '@/components/MySQLTable'
 import { HomeCard } from '@/components/shared/home/home-card'
 import { HomeCarousel } from '@/components/shared/home/home-carousel'
 import {
@@ -65,6 +66,10 @@ export default async function Page() {
       <HomeCarousel items={data.carousels} />
       <div className='md:p-4 md:space-y-4 bg-border'>
         <HomeCard cards={cards} />
+      </div>
+      <div className='container mx-auto py-8'>
+        <h1 className='text-2xl font-bold mb-4'>MySQL Data</h1>
+        <MySQLTable />
       </div>
     </>
   )
