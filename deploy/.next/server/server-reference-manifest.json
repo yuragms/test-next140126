@@ -1,0 +1,36 @@
+{
+  "node": {
+    "0017bd343dd9564d31a56190f4b6a8580d9c831e98": {
+      "workers": {
+        "app/(home)/page": {
+          "moduleId": 70739,
+          "async": false,
+          "exportedName": "getAllCategories",
+          "filename": "lib/actions/product.actions.ts"
+        }
+      },
+      "layer": {
+        "app/(home)/page": "rsc"
+      },
+      "filename": "lib/actions/product.actions.ts",
+      "exportedName": "getAllCategories"
+    },
+    "4057be128153b98eaa2c1023b4184a0d5b306f98c2": {
+      "workers": {
+        "app/(home)/page": {
+          "moduleId": 70739,
+          "async": false,
+          "exportedName": "getProductsForCard",
+          "filename": "lib/actions/product.actions.ts"
+        }
+      },
+      "layer": {
+        "app/(home)/page": "rsc"
+      },
+      "filename": "lib/actions/product.actions.ts",
+      "exportedName": "getProductsForCard"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "Yv0yj1A8nGyR3mFj59eNn1qSEF4ZbUL4my/ZtSzcO9U="
+}

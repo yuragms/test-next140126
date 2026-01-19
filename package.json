@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "seed": "npx tsx ./lib/db/seed.ts",
+    "db:init:mysql": "npx tsx lib/db/init-mysql.ts",
+    "db:seed:mysql": "npx tsx lib/db/seed-mysql.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

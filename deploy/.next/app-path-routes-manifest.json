@@ -1,0 +1,7 @@
+{
+  "/(home)/page": "/",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/mysql-data/route": "/api/mysql-data",
+  "/favicon.ico/route": "/favicon.ico"
+}
